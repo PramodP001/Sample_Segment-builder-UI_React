@@ -1,0 +1,19 @@
+.remove-default-margin{
+    padding:0px !important;
+    margin:0px !important;
+}
+
+
+@media (max-width:768px){
+    .mobPadding16 {
+        padding: 16px 24px !important;
+    }
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .col, .col-md-12, .col-md-10 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}

@@ -1,0 +1,84 @@
+.body-header-section{
+    background:#48B28E;
+    padding:3%;
+}
+.body-header-section p{
+    color:#fff;
+    font-size:25px;
+    margin-bottom: 0px;
+}
+.body-header-section span{
+    color:#fff;
+}
+.btn-outline-primary{
+    color: #fff !important;
+    border-color: white;
+    margin-left: 2%;
+    width: 25%;
+}
+.btn-outline-primary:hover{
+    background: #fff;
+    border:#fff;
+    color:black !important;
+
+}
+
+.bg-success {
+    background-color: #48B28E!important;
+}
+
+.edit-input {
+    height: 44px;
+    font-size: 25px;
+    min-width: 615px;
+    background-color: #6AC1A4;
+    border: none;
+    padding-left: 12px;
+    border-radius: 3px;
+    margin-right: 16px;
+    color: white;
+}
+
+.allgn-left {
+    margin-left: -18px;
+}
+
+.txt-allgn-left {
+    margin-left: 13px;
+}
+
+.btn-wrapper {
+    margin-right: -72px;
+    margin-top: 16px;
+}
+
+.icon-color {
+    color: white;
+    font-size: larger;
+}
+
+@media (max-width:768px){
+    /* .btn-outline-primary{
+        width: auto;
+    } */ 
+    .btn-wrapper {
+        margin-left: 16px;
+    }
+    .save-btn {
+        width: 35%;
+    }
+    .body-header-section p {
+        margin-left: 16px;
+    }
+    .body-header-section span{
+        margin-left: 16px;
+    }
+    .edit-input {
+        min-width: 323px;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    .allgn-left {
+        margin-left: 0px;
+    }
+}

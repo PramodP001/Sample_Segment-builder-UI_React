@@ -1,0 +1,122 @@
+.body-container-section{
+    background:#ECEEF2;
+}
+.box-style{
+    background: #ffffff;
+    margin:1% 2%;
+    padding:2%;
+    box-sizing: border-box;
+    border: solid 2px #dee0e2;
+    line-height: 40px;
+}
+.head-color{
+    color:#757575 !important;
+}
+.box-style h5, .product_description{
+    font-size:18px;
+    color:#757575;
+}
+.box-style p{
+    color:#757575;
+    font-size:14px;
+    line-height: 20px;
+}
+.box-style span{
+    color:#757575;
+    font-size:14px;
+    margin-bottom: 0px;
+    margin-left: -6px;
+}
+.box-style h5, .product-purchased-container h4,.product_description{
+    color:#212529;
+}
+.box-style1 .section1{
+    border:1px #212529 !important;
+}
+.box-style1{
+    background: #ffffff;
+    margin: 1% 2%;
+    padding: 2%;
+    box-sizing: border-box;
+    border: solid 2px #dee0e2;
+    max-width: 96%;
+}
+.pull-right{
+    position:absolute;
+    right:10px;
+}
+
+.textspan{
+    color: #48B28E!important;
+    font-weight: bold;
+}
+
+.text{
+    margin:5px !important;
+}
+
+.btn.btn-success{
+    background-color: #48B28E;
+    border:1px solid #48B28E;
+}
+
+.btn-outline-success:hover {
+    background-color: #48B28E;
+    border:1px solid #48B28E;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #48B28E;
+    border:1px solid #48B28E;
+}
+
+.input-padding {
+    padding: 8px;
+}
+
+.progress {
+    margin-top: 16px;
+}
+.progress-bar {
+    width: 10% !important;
+}
+.mgn-bottom {
+    margin-bottom: 20px;
+}
+
+.top-space {
+    margin-top: 40px;
+}
+
+.btn-color {
+    background-color: #48B28E;
+    color: white;
+    margin-right: 10px;
+}
+
+.flex-end {
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width:768px){
+    .pull-right{
+        position:relative;
+        margin-bottom: 16px !important;
+        right: auto;
+    }
+    .btn-outline-success {
+        position: relative;
+        margin-bottom: 16px !important;
+        float: right !important;
+        right: auto;
+    }
+    .product_description{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .btn-style {
+        margin-right: 8px;
+    }
+}

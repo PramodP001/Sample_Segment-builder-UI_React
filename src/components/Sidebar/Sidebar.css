@@ -1,0 +1,85 @@
+.align-items-start{
+    /* align-items: center !important; */
+}
+.navbar-collapse {
+    width: 100% !important;
+}
+.navbar {
+    padding: 0 !important;
+    height: 64px !important;
+}
+.nav-link {
+    padding: 16px 8px 16px 48px !important;
+}
+.nav-link:focus, .nav-link:hover {border-left: 4px solid #fff !important; background-color: rgba(255, 255, 255, 0.12) !important; padding-left: 44px !important;}
+
+.navCustomLink {
+    color: rgba(255,255,255,1) !important;
+}
+
+@media (min-width:768px) and (max-width:997px){
+    .nav-link{
+       font-size:10px !important; 
+       font-weight:bold;
+       padding: 0 !important;
+    }
+    .navbar-collapse {
+        height: 100%;
+    }
+    .customUl {
+        height: 100%;
+        margin-left: 10px;
+    }
+    .customUl > li {height: 100%; width: auto; line-height: 10px;}
+
+    .navCustomLink {
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 100%;
+        text-align: center;
+        flex-direction: column;
+        color: rgba(255,255,255,1);
+    }
+    .navCustomLink > span {
+        position: relative;
+    }
+    .navCustomLink > .fa:before {
+        position: relative;
+    }
+    .nav-link:focus, .nav-link:hover {border-left: 0px !important; background-color: rgba(255, 255, 255, 0.12) !important; padding-left: 0 !important;}
+}
+
+@media (max-width:605px){
+    .nav-link{
+       font-size:12px !important; 
+       font-weight:bold;
+       padding: 0 !important;
+    }
+    .navbar-collapse {
+        height: 100%;
+    }
+    .customUl {
+        height: 100%;
+        margin-left: 10px;
+    }
+    .customUl > li {height: 100%; width: auto; line-height: 8px;}
+    .navCustomLink {
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 100%;
+        text-align: center;
+        flex-direction: column;
+        color: rgba(255,255,255,1);
+    }
+    .navCustomLink > span {
+        position: relative;
+    }
+    .navCustomLink > .fa:before {
+        position: relative;
+    }
+    .nav-link:focus, .nav-link:hover {border-left: 0px !important; background-color: rgba(255, 255, 255, 0.12) !important; padding-left: 0 !important;}
+}
