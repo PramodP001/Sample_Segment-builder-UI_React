@@ -1,10 +1,11 @@
 ## Technology Stack
-React 16.8.6
-Bootstrap 4
-Flex
-CSS3
-HTML
-FontAwsome
+
+* React 16.8.6
+* Bootstrap 4
+* Flex
+* CSS3
+* HTML
+* FontAwsome
 
 ## Steps to run
 
