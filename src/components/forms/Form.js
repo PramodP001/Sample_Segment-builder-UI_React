@@ -192,6 +192,9 @@ function FormComponent() {
                         </div>
                     </div>
                 </div>
+                <div class="flex-end text-sm">
+                    <p><a href="#" class="color-dark-gray">Show source code</a></p>
+                </div>
             </div>
         </div>
     </div>
