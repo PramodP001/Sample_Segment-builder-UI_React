@@ -98,6 +98,12 @@
     font-size: 12px;
     display: flex;
     justify-content: flex-end;
+    flex: 1;
+}
+
+.color-dark-gray {
+    margin-right: 25px;
+    color: rgb(0,0,0,.75);
 }
 
 @media (max-width:768px){
